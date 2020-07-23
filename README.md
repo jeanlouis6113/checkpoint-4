@@ -4,7 +4,7 @@ Pour utiliser le projet sur votre machine.
 
 Installation 
 
-npm install pour pouvoir installer tout les modules nécessaire pour le projet.
+npm install pour installer tout les modules nécessaire pour le projet.
 
 Créer la base de donnée circus sur votre machine.
 
