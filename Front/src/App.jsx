@@ -14,6 +14,8 @@ import GalleryList from './components/GalleryList';
 import GalleryAdmin from './components/GalleryAdmin';
 import Mention from './components/Mention';
 import PrivateRoute from './components/PrivateRoute';
+import PageNotFound from './components/PageNotFound';
+
 function App() {
   return (
     <div>
@@ -31,6 +33,7 @@ function App() {
             <Route exact path="/Contact" component={Contact} />
             <Route exact path="/login" component={Login} />
             <PrivateRoute path="/newuser" component={NewUser} exact />
+            <Route  component={PageNotFound} />
           </Switch>
           <Footer className="footer" />
         </Router>
