@@ -1,20 +1,20 @@
-checkpoint 4
+<h1>checkpoint 4<h1>
 
-Pour utiliser le projet sur votre machine. 
+<p>Pour utiliser le projet sur votre machine.</p>
 
-Installation 
+<h2>Installation</h2>
 
-npm install pour pouvoir installer tout les modules nécessaire pour le projet.
+<p>npm install pour pouvoir installer tout les modules nécessaire pour le projet.</p>
 
-Créer la base de donnée circus sur votre machine.
+<p>Créer la base de donnée circus sur votre machine.</p>
 
-Importer le fichier bbd.sql qui se trouve dans le dossier Ressources.
+<p>Importer le fichier bbd.sql qui se trouve dans le dossier Ressources.</p>
 
-Créer un nouveau fichier .env a la racine du dossier Front et copier le contenu du fichier  .env.sample comme ci dessous.
+<p>Créer un nouveau fichier .env a la racine du dossier Front et copier le contenu du fichier  .env.sample comme ci dessous.</p>
 
 <!-- //REACT_APP_API_URL = http://localhost:8000// -->
 
-Créer un nouveau fichier .env a la racine du dossier Back et copier le contenu du fichier  .env.sample comme ci dessous et modifier les champs nécessaire comme indiquer (DB_USER, DB_ PASS, EMAIL, PASSWORD, RECIPIENT_EMAIL).
+<p>Créer un nouveau fichier .env a la racine du dossier Back et copier le contenu du fichier  .env.sample comme ci dessous et modifier les champs nécessaire comme indiquer (DB_USER, DB_ PASS, EMAIL, PASSWORD, RECIPIENT_EMAIL).</p>
 
 <!-- 
 //DB_HOST=localhost
@@ -28,20 +28,20 @@ EMAIL=email configurer avec gmail (mettre la securité basse sur la boite mail)
 PASSWORD=mot de passe boite mail
 RECIPIENT_EMAIL=adress mail en copie  du mail// -->
 
-Enfin pour avoir accès à la parti administrateur j'ai créer un utilisateur test pour pouvoir avoir accès.
+<p>Enfin pour avoir accès à la parti administrateur j'ai créer un utilisateur test pour pouvoir avoir accès.
 
-Username: test
-Mot de passe: test
+<p>Username: test</p>
+<p>Mot de passe: test</p>
 
-Voila tout est prêt pour mettre en route le projet 
+<p>Voila tout est prêt pour mettre en route le projet</p>
 
 
-Ressource présente de le référentiel
+<h2>Ressource présente de le référentiel</h2>
 
-Photo de wireframe du projet 
-Photo de la modélisation de la base de donnée
-Photo du descriptif de chaque table de la base de donnée
-Base de donnée exporter un bdd.sql
+<p>Photo de wireframe du projet </p>
+<p>Photo de la modélisation de la base de donnée</p>
+<p>Photo du descriptif de chaque table de la base de donnée</p>
+<p>Base de donnée exporter un bdd.sql</p>
 
 
 
