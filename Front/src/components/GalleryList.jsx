@@ -1,0 +1,43 @@
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { Card, CardContent } from '@material-ui/core';
+import axios from 'axios';
+
+const API_URL = process.env.REACT_APP_API_URL;
+
+function GalleryList() {
+    const [gallerys, setGallerys] = useState([]);
+
+
+    useEffect(() => {
+        function getGallerys() {
+            axios.get(`${API_URL}/api/gallery/`)
+                .then((res) => res.data)
+                .then((data) => { setGallerys(data); });
+        }
+
+        getGallerys();
+    }, []);
+
+    return (
+        <div className="productList_flexContainer">
+            <div className="productList_Background">
+                <div className="productList_cardContainer">
+                    {gallerys.map((gallery) => (
+                        <Link to={`/gallery/${gallery.id}`}>
+                            <Card>
+                                <CardContent className="productList_card">
+                                    <img src={`${API_URL}/images/${gallery.image}`} alt="Photos " className="listProductImage" />
+                                    <h4 className="listProductName">{gallery.name}</h4>
+                                    <p>{gallery.description}</p>
+                                </CardContent>
+                            </Card>
+                        </Link>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default GalleryList;

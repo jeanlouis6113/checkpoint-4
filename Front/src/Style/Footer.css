@@ -1,0 +1,28 @@
+.logo-rs {
+  background: white;
+  border-top: 2px solid black;
+  margin-top: 13%;
+  padding-right: 2%;
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.logo {
+  padding: 0.5em;
+}
+
+.bloc {
+  padding: 0 !important;
+}
+.administrateur{
+  padding-right: 3%;
+  color: black;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .administrateur{
+    font-size: 13px;
+  }
+}
+

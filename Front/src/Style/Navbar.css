@@ -1,0 +1,48 @@
+.navbarRoot {
+    display: flex;
+    width: 100%;
+
+}
+
+.navbar {
+    background-color:white;
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarItems :link {
+    color: black;
+    text-decoration: none;
+}
+
+.navbarItems :link :hover {
+    color: grey;
+}
+
+.navbarItems :visited {
+    color: black;
+}
+
+.burgerButton{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .burgerButton{
+        display: block;
+        width: 50px;
+    }
+
+    .navbarItems{
+        display: none;
+    }
+    .mainLogo {
+        width: 170px;
+    }
+
+    .mainLogo{
+        width: 170px;
+    }
+
+  }

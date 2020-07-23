@@ -1,0 +1,61 @@
+.formulaire {
+  padding-left: 40%;
+}
+.gallery-name {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+.nom-gallery {
+  width: 30%;
+  height: 30px;
+}
+.description {
+  width: 30%;
+  height: 30px;
+}
+.nom-image {
+  width: 30%;
+  height: 30px;
+}
+.upload {
+  margin-top: 2%;
+  padding-left: 40%;
+  margin-bottom: 7vh;
+}
+@media screen and (max-width: 768px) {
+  .gallery-name {
+    margin-top: 30%;
+    font-size: 1.8em;
+    margin-bottom: 20%;
+  }
+  .formulaire {
+    padding-left: 10%;
+    padding-bottom: 5%;
+  }
+
+  .nom-gallery {
+    width: 100%;
+  }
+  .description {
+    width: 100%;
+  }
+  .nom-image {
+    width: 100%;
+  }
+  .upload {
+    margin-top: 2%;
+    padding-left: 10%;
+  }
+  .upload1 {
+    margin-top: 2%;
+    padding-left: 10%;
+    margin-bottom: 28vh;
+  }
+}
+@media screen and (max-width: 768px) {
+    .upload1 {
+        margin-bottom: 17vh;
+      }
+}
