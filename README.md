@@ -10,11 +10,11 @@ Créer la base de donnée circus sur votre machine.
 
 Importer le fichier bbd.sql qui se trouve dans le dossier Ressources.
 
-Créer un nouveau fichier .env a la racine du dossier Front et copier le contenu du fichier  .env.sample comme ci dessous.
+Créer un nouveau fichier .env a la racine du dossier Front et copier le contenu du fichier  .env.sample.
 
 <!-- //REACT_APP_API_URL = http://localhost:8000// -->
 
-Créer un nouveau fichier .env a la racine du dossier Back et copier le contenu du fichier  .env.sample comme ci dessous et modifier les champs nécessaire comme indiquer (DB_USER, DB_ PASS, EMAIL, PASSWORD, RECIPIENT_EMAIL).
+Créer un nouveau fichier .env a la racine du dossier Back et copier le contenu du fichier  .env.sample et modifier les champs nécessaire comme indiquer (DB_USER, DB_ PASS, EMAIL, PASSWORD, RECIPIENT_EMAIL).
 
 <!-- 
 //DB_HOST=localhost
