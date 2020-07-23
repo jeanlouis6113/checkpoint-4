@@ -80,7 +80,7 @@ function NousSitueradmin() {
     
       <div className="bg">
         <h1 className="title-date-admin">Créer une date</h1>
-        <form onSubmit={submitForm}>
+        <form onSubmit={submitForm} className="ajout-date">
           Lieu:
           <input type="text" onChange={handleChange} name="location" />
                 Date:

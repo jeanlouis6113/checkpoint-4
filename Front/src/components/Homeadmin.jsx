@@ -3,15 +3,12 @@ import { useHistory } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import Container from '@material-ui/core/Container';
 import Carrousel from './Carrousel';
-import UploadFile from './UploadFile';
 import '../Style/Home.css';
 import { logout } from '../utils/login';
 
-const APP_URL = process.env.REACT_APP_API_URL;
 
 function Homeadmin() {
-    const [loaded, setLoaded] = useState(false);
-    const [imageSrc] = useState(`${APP_URL}/images/Accueil.jpg`);
+    const [loaded] = useState(false);
     const [imageHash, setImageHash] = useState(null);
     const history = useHistory();
     const dispatch = useDispatch();
@@ -56,15 +53,8 @@ function Homeadmin() {
 
                             </div>
                         </div>
-                    </div>
-                    <img
-                        className="image-home"
-                        src={`${imageSrc}?${imageHash}`}
-                        alt="Accueil"
-                    />
+                    </div>      
                 </div>
-                <div className="upload-accueil"></div>
-                <UploadFile setLoaded={setLoaded} loaded={loaded} />
             </div>
         </Container>
     );
