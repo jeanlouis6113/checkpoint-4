@@ -22,17 +22,17 @@ function Product() {
 
   if (gallery === undefined) {
     return (
-      <div className="gallery_flexContainer">
-        <div className="gallery_Background">
+      <div className="background" >
+        <div className="background" >
           <p>Loading</p>
         </div>
       </div>
     );
   }
   return (
-    <div className="gallery_flexContainer">
-      <div className="gallery_Background">
-        <img src={`${API_URL}/images/${gallery.image}`} alt="photos" className="image" />
+    <div className="background">
+      <div className="background" >
+        <img src={`${API_URL}/images/${gallery.image}`} alt="photos" className="images" />
         <div className="gallery_text">
           <h2 className="gallery_name">{gallery.name}</h2>
           <p>{gallery.description}</p>

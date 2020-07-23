@@ -1,10 +1,11 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
+import '../Style/Mention.css';
 
 
 function Mention() {
     return (
-        <Container maxWidth className="">
+        <Container maxWidth className="background-mention">
             <div>
             <h2 className="mention-legale">Définitions</h2>
                 <p><b>Client&nbsp;:</b>&nbsp;tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale, qui visite le Site objet des présentes conditions générales.<br></br>

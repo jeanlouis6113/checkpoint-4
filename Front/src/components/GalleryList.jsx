@@ -20,16 +20,16 @@ function GalleryList() {
     }, []);
 
     return (
-        <div className="productList_flexContainer">
-            <div className="productList_Background">
-                <div className="productList_cardContainer">
+        <div >
+            <div className="">
+                <div className="">
                     {gallerys.map((gallery) => (
-                        <Link to={`/gallery/${gallery.id}`}>
-                            <Card>
-                                <CardContent className="productList_card">
-                                    <img src={`${API_URL}/images/${gallery.image}`} alt="Photos " className="listProductImage" />
-                                    <h4 className="listProductName">{gallery.name}</h4>
-                                    <p>{gallery.description}</p>
+                        <Link to={`/gallery/${gallery.id}`} className="background" >
+                            <Card className="background" >
+                                <CardContent className="" >
+                                <h4 className="galleryName">{gallery.name}</h4>
+                                    <img src={`${API_URL}/images/${gallery.image}`} alt="Photos " className="images" />
+                                    <p className="text-description">{gallery.description}</p>
                                 </CardContent>
                             </Card>
                         </Link>

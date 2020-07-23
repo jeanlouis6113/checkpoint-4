@@ -14,9 +14,9 @@ router.get('/', (req, res) => {
 });
 
 
-router.post('/', (req, res) => {
-    const formData = req.body;
-    connection.query('INSERT INTO gallery SET ?', formData, (err, results) => {
+router.post('/',passport.authenticate('jwt', { session: false }), (req, res) => {
+    const { id, description, name } = req.body;
+    connection.query('UPDATE  gallery SET ? WHERE id = ?', [{ description, name }, id], (err, results) => {
         if (err) {
             res.status(500).send("Erreur lors de l'ajout dans la galerie");
         } else {
@@ -33,13 +33,14 @@ router.post('/', (req, res) => {
 
 
 
-router.put('/:id', (req, res) => {
+
+router.put('/:id',passport.authenticate('jwt', { session: false }), (req, res) => {
     const formData = req.body;
     const idGallery = req.params.id;
     connection.query('UPDATE gallery SET ? WHERE id = ?', [formData, idGallery], (err) => {
         if (err) {
             res.status(500).send('Erreur lors de la modification de la galerie');
-            console.log(err.message);
+            console.log("update error: ", err.message);
         } else {
             res.sendStatus(200);
         }
