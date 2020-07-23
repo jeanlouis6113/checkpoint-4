@@ -10,23 +10,12 @@
 
 <p>Importer le fichier bbd.sql qui se trouve dans le dossier Ressources.</p>
 
-<p>Créer un nouveau fichier .env a la racine du dossier Front et copier le contenu du fichier  .env.sample comme ci dessous.</p>
+<p>Créer un nouveau fichier .env a la racine du dossier Front et copier le contenu du fichier  .env.sample .</p>
 
-<!-- //REACT_APP_API_URL = http://localhost:8000// -->
 
-<p>Créer un nouveau fichier .env a la racine du dossier Back et copier le contenu du fichier  .env.sample comme ci dessous et modifier les champs nécessaire comme indiquer (DB_USER, DB_ PASS, EMAIL, PASSWORD, RECIPIENT_EMAIL).</p>
+<p>Créer un nouveau fichier .env a la racine du dossier Back et copier le contenu du fichier  .env.sample et modifier les champs nécessaire comme indiquer (DB_USER, DB_ PASS, EMAIL, PASSWORD, RECIPIENT_EMAIL).</p>
 
-<!-- 
-//DB_HOST=localhost
-DB_PORT=3306
-DB_USER=utilisateur mysql
-DB_PASS=mot de passe utilisateur mysql
-DB_NAME=circus
-PORT=8000
-CLIENT_APP_ORIGIN=http://localhost:3000
-EMAIL=email configurer avec gmail (mettre la securité basse sur la boite mail)
-PASSWORD=mot de passe boite mail
-RECIPIENT_EMAIL=adress mail en copie  du mail// -->
+
 
 <p>Enfin pour avoir accès à la parti administrateur j'ai créer un utilisateur test pour pouvoir avoir accès.
 
@@ -36,7 +25,7 @@ RECIPIENT_EMAIL=adress mail en copie  du mail// -->
 <p>Voila tout est prêt pour mettre en route le projet</p>
 
 
-<h2>Ressource présente de le référentiel</h2>
+<h2>Ressource présente dans le référentiel</h2>
 
 <p>Photo de wireframe du projet </p>
 <p>Photo de la modélisation de la base de donnée</p>
