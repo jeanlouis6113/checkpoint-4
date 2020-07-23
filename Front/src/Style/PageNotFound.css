@@ -1,0 +1,25 @@
+
+
+.center {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: hsl(0, 0%, 0%);
+	color: hsl(0, 0%, 100%);
+}
+
+svg {
+	width: 20rem;
+
+}
+
+.rotate {
+	animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}

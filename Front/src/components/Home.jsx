@@ -3,14 +3,14 @@ import Container from '@material-ui/core/Container';
 import Carrousel from './Carrousel';
 import '../Style/Home.css';
 
-// const APP_URL = process.env.REACT_APP_API_URL;
+
 
 function Home() {
     return (
         <Container maxWidth>
             <div className="home_flexContainer">
                 <div className="home_gridContainer">
-                    <h1 className="title-home">Welcome Mimicircus</h1>
+                    <h1 className="title-home anime">Welcome Mimicircus</h1>
                     <div className="info">
                         <Carrousel className="carrousel" />
                     </div>
@@ -35,13 +35,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                {/* <div>
-                    <img
-                        className="image-home"
-                        src={`${APP_URL}/images/Accueil.jpg`}
-                        alt="Accueil"
-                    />
-                </div> */}
+ 
             </div>
         </Container>
     );
