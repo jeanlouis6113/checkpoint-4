@@ -12,7 +12,7 @@ function Navbar() {
     const login = useSelector((state) => state.login);
 
     return (
-        <div className="navbarRoot">
+        <div className="navbarRoot ">
             <AppBar position="static">
                 <Toolbar className="navbar">
                     <div className="burgerButton">

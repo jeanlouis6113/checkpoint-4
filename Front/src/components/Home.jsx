@@ -10,7 +10,8 @@ function Home() {
         <Container maxWidth>
             <div className="home_flexContainer">
                 <div className="home_gridContainer">
-                    <h1 className="title-home area">Welcome Mimicircus</h1>
+                    <h1 className="title-home ">Welcome Mimicircus</h1>
+
                     <div className="info">
                         <Carrousel className="carrousel" />
                     </div>
@@ -35,7 +36,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
- 
+
             </div>
         </Container>
     );

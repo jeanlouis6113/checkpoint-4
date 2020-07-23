@@ -10,7 +10,7 @@ function Footer() {
   return (
     <Container maxWidth className="bloc">
 
-      <div className=" ">
+      <div className="">
         <div className="logo-rs ">
         <Link className="administrateur" to="/login" >Mode administrateur</Link>
           <a
